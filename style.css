@@ -1,0 +1,94 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'citrus-gothic', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+.hero {
+    background-image: url('https://livecoventryac-my.sharepoint.com/:i:/r/personal/clarkec10_uni_coventry_ac_uk/Documents/site%20page.png?csf=1&web=1&e=WwUuFF'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+nav {
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    font-family: 'citrus-gothic-solid', sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #292A6A;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #292A6A;
+    color: #fafafa;
+    border-radius: 4px;
+}
+
+h1 {
+    font-family: 'citrus-gothic-solid', sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: #fff;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: 4px;
+    margin: 0;
+}
+
+.button {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'citrus-gothic-solid', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    margin-top: 30px;
+    transition: all 0.3s ease, color 0.3s ease;
+}
+
+.button:hover {
+    background: #fff;
+    color: #292A6A;
+}
